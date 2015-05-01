@@ -1,0 +1,12 @@
+<ahrc = 'www.google.com'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<mix = 'http://www.jcp.org/jcr/mix/1.0'>
+
+[ahrc:feedbackResponse] > jnt:content, jmix:structuredContent, mix:title
+ - driver (string) = 'com.mysql.jdbc.Driver' mandatory
+ - url (string) = 'jdbc:mysql://localhost:2306/nimbus_dev' mandatory
+ - user (string) = 'nimbus'
+ - password (string) = 'password'
+ - tableName (string) = 'AHRC_FEEDBACK'
+
